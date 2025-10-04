@@ -1,0 +1,190 @@
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+body {
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+    background-image: url(https://i.pinimg.com/1200x/db/46/16/db46161e26b43a76c7d70d203325370b.jpg);
+    background-position: center center;
+
+    background-color: #540804;
+    color: #edf2f4;
+    text-shadow: 
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    text-align: center;
+}
+
+#navbar {
+    background-color: #ad2e24;
+}
+
+#link {
+    color: #edf2f4;
+}
+
+.animate__animated:hover {
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+.animate__animated2:hover {
+    animation: pulse;
+    animation-duration: 1.5s;
+}
+
+#contact-header, #homepage-header, #order-header {
+    background-color: rgba(173, 46, 36, 0.5);
+    padding: 30px;
+	margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    outline: #000 dashed 3px;
+}
+
+#menu {
+    background-color: rgba(173, 46, 36);
+    padding: 30px;
+	margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    outline: #000 dashed 3px;
+}
+
+#order-now {
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#order-body {
+    background-color: rgba(173, 46, 36);
+    padding: 30px;
+	margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    outline: #000 dashed 3px;
+}
+
+#customer-details, #menu-section {
+    text-align: left;
+}
+
+#order-button {
+    background-color: #edf2f4;
+    color: #ad2e24;
+    outline: #000 dashed 3px;
+    size: 100px;
+}
+
+#card {
+    background-color: #ad2e24;
+    padding: 20px;
+	margin: 20px;
+    margin-top: 100px;
+    border-radius: 10px;
+    outline: #000 dashed 3px;
+}
+
+footer {
+    position: relative;
+}
+
+#contact-footer {
+    background-color: #ad2e24;
+    padding: 10px;
+	margin: 15px auto;
+    margin-top: 200px;
+    max-width: 92.5%;
+    border-radius: 10px;
+    outline: #000 dashed 3px;
+    bottom: 0;
+}
+
+#order-summary {
+    background-color: #ad2e24;
+    padding: 10px;
+	margin: 15px auto;
+    margin-top: 50px;
+    max-width: 62.5%;
+    border-radius: 10px;
+    outline: #000 dashed 3px;
+    bottom: 0;
+}
+
+#order-footer {
+    background-color: #ad2e24;
+    padding: 10px;
+	margin: 15px auto;
+    margin-top: 50px;
+    max-width: 92.5%;
+    border-radius: 10px;
+    outline: #000 dashed 3px;
+    bottom: 0;
+}
+
+#homepage-footer {
+    background-color: #ad2e24;
+    padding: 10px;
+	margin: 15px auto;
+    margin-top: 25px;
+    max-width: 92.5%;
+    border-radius: 10px;
+    outline: #000 dashed 3px;
+    bottom: 0;
+}
+
+thead, tbody {
+    background-color: #ad2e24;
+    border: 1px solid #000000;
+}
+
+tr {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #edf2f4;
+}
+
+--- ORDER SECTI0N --- 
+
+.menu-container {
+  height: 400px; /* Or any fixed height you want */
+  overflow-y: auto; /* Enables vertical scrolling when content exceeds height */
+  padding: 15px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px; 
+  border: #edf2f4 dashed 3px;
+}
+
+#menu-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.item-details {
+  flex-grow: 1;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-price {
+  color: #edf2f4;
+}
